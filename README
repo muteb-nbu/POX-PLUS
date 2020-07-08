@@ -1,0 +1,27 @@
+POX-PLUS is a new SDN controller based on the popular POX controller [1]. POX-PLUS
+includes a new routing module called DR-APSP that computes
+and maintains paths between nodes in the SDN. DR-APSP
+provides SDN routing based on dynamic shortest paths. Our
+solution scales to frequent network topology changes and avoids
+recomputing entire paths when changes occur.
+
+
+DR-APSP code is written in Python and can be founf in POX-PLUS/pox/pox/forwarding/DR-APSP.py
+<<<<<<< HEAD
+			
+Code for Graph implementation an dthe Dynamic APSP can be found in POX-PLUS/pox/pox/Graph.py
+=======
+>>>>>>> c87081b5f48124b6bd337d35a1a97d2337a481e9
+
+The best way to run POX-PLUS is by:
+	sudo python pox.py forwarding.apsp openflow.discovery --eat-early-packets  host_tracker
+For more details on POX "POX-PLUS/pox/README"
+
+
+[1] https://github.com/noxrepo/pox
+
+---------------------------------------------------
+
+By:
+	Muteb Alshammari
+	Abdelmounaam Rezgui
