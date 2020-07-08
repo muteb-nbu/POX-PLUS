@@ -6,10 +6,10 @@ solution scales to frequent network topology changes and avoids
 recomputing entire paths when changes occur.
 
 
-DR-APSP code is written in Python and can be founf in POX-PLUS/pox/pox/forwarding/DR-APSP.py
+DR-APSP code is written in Python and can be found in POX-PLUS/pox/pox/forwarding/DR-APSP.py
 <<<<<<< HEAD
 			
-Code for Graph implementation an dthe Dynamic APSP can be found in POX-PLUS/pox/pox/Graph.py
+impementations of the Graph and its Dynamic APSP algorithms can be found in POX-PLUS/pox/pox/Graph.py
 =======
 >>>>>>> c87081b5f48124b6bd337d35a1a97d2337a481e9
 
